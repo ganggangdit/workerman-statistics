@@ -7,6 +7,7 @@
 ini_set('display_errors', 'on');
 use Workerman\Worker;
 
+
 // 检查扩展
 if(!extension_loaded('pcntl'))
 {
